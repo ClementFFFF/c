@@ -1,0 +1,28 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+/* General style rules for fonts and colors */
+body {
+    font-family: 'Poppins', sans-serif; /* Modern body font */
+    font-size: 18px;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', serif; /* Stylish heading font */
+    font-weight: bold;
+}
+
+a {
+    color: #c0392b; /* Soft red color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e74c3c; /* Slightly brighter red on hover */
+}

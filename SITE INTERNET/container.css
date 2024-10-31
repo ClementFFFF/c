@@ -1,0 +1,5 @@
+.container {
+    max-width: 1200px; /* or any width */
+    margin: 0 auto;
+    padding: 0 20px; /* Add side padding */
+}
